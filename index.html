@@ -11,15 +11,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="scripts/app.js"></script>
+    <script src="scripts/home.js"></script>
+    <script src="scripts/common.js"></script>
   </head> 
+  
   <body onload="document.body.style.opacity='1'">
+	 <div  id="promo">
+        <div>Next day delivery available until 9pm</div>
+        <div style="display:none;">Free shipping on orders over £1,500</div>
+        <div style="display:none;">Pay nothing today with interest free finance</div>
+        <div style="display:none;">Free gift with selected watches</div>
+    </div>
+	
 	<header class="container-fluid">
-	 <div class="row justify-content-center">
-          <div class="col-md-4 col-lg-4"></div>
-	  <div class="col-md-4 col-lg-4"><center><a href="index.html"><img id="logo2" src="images/logo2.png" class="img-fluid" alt="logo"></a></center></div>
-	  <div class="col-md-4 col-lg-4"></div>	
-	 </div>
-		 
+      <div class="header">
+		
+        <center><a href="index.html"><img id="logo2" src="images/logo2.png" class="img-fluid" alt="logo"></a></center>  
 		
 	  
 	  
@@ -27,15 +36,15 @@
 	    <div class="container-fluid justify-content-end">
 		 <div class="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
              <ul class="navbar-nav">
-               <li class="nav-item dropdown dropstart" id="dropdownsearch">
+               <li class="nav-item dropdown dropstart">
                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"><i class="bi-search"></i></a>
-                   <ul class="dropdown-menu">
-                     <li id="searchlink"><input type="text" placeholder="Search...">
-					 </li>
+                   <ul class="dropdown-menu" id="searchbar">
+                     <form class="d-flex" role="search" id="searchbox">
+						<input class="form-control me-2" type="search" placeholder="Search" id="searchinput"></form>
 					</ul>
 				</li>
 				<li class="nav-item">
-                <a class="nav-link" href="cart.html"><i class="bi-bag"></i></a>
+                <a class="nav-link" href="cart.html"><i class="bi-bag" id="cart"></i></a>
                 </li>
 			</ul>
 		  </div>
@@ -76,7 +85,7 @@
           </div>
         </div>
       </nav>
-	  
+	  </div>
     </header>
 	
     <img src="images/backgroundwatch7.jpg" class="img-fluid" alt="backgroundwatch">
@@ -112,7 +121,7 @@
               <h6>FOR HER</h6>
               <p class="card-text">Stylish yet elegant and versatile for any occasion</p>
               <h6><b>&pound;4,800</b></h6>
-              <a href="#" class="btn btn-dark"><b>Add to cart</b></a>
+              <a href="#" class="btn"><b>ADD TO CART</b></a>
             </div>
           </div>
         </div>
@@ -124,7 +133,7 @@
               <h6>FOR HIM</h6>
               <p class="card-text">Sophisticated with the utmost precision and quality</p>
               <h6><b>&pound;4,800</b></h6>
-              <a href="#" class="btn"><b>Add to cart</b></a>
+              <a href="#" class="btn"><b>ADD TO CART</b></a>
             </div>
           </div>
         </div>
@@ -136,7 +145,7 @@
               <h6>FOR HER</h6>
               <p class="card-text">Modern-retro inspired with elegance and charm</p>
               <h6><b>&pound;4,800</b></h6>
-              <a href="#" class="btn"><b>Add to cart</b></a>
+              <a href="#" class="btn"><b>ADD TO CART</b></a>
             </div>
           </div>
         </div>

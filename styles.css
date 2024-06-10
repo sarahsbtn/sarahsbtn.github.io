@@ -53,7 +53,7 @@ body {
 }
 
 #promo {
-	background-color: #f9f3dc;
+	background-color: #FFFEEB;
 	padding: 0;
 	letter-spacing: 1.5px;
 	font-size: 0.75em;
@@ -174,14 +174,14 @@ header {
 	text-align: center;
 	letter-spacing: 1.5px;
 	font-size: 0.9em;
-	background-color: #f9f3dc;
+	background-color: #FFFEEB;
 }
 
 #ourbestsellers, #ourcollections {
 	text-align: center;
 	letter-spacing: 1.5px;
 	font-size: 0.9em;
-	background-color: #f9f3dc;
+	background-color: #FFFEEB;
 	
 #productshomepagelink {
 	color: inherit;

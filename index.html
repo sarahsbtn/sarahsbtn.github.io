@@ -16,7 +16,7 @@
     <script src="scripts/home.js"></script>
     <script src="scripts/common.js"></script>
   </head> 
-  
+  <!--From here to be replicated for all pages until... -->
   <body onload="document.body.style.opacity='1'">
 	 <div  id="promo">
         <div>Next day delivery available until 9pm</div>
@@ -28,7 +28,7 @@
 	<header class="container-fluid">
       <div class="header">
 		
-        <center><a href="index.html"><img id="logo2" src="images/logo2.png" class="img-fluid" alt="logo"></a></center>  
+        <center><a href="index.html"><img id="logo" src="images/logo.png" class="img-fluid" alt="logo"></a></center>  
 		
 	  
 	  
@@ -87,9 +87,11 @@
       </nav>
 	  </div>
     </header>
-	
+	<!--...here and then...-->
+	<picture>
+	<source srcset="images/backgroundwatch7mobile.jpg" media="(max-width: 500px)">
     <img src="images/backgroundwatch7.jpg" class="img-fluid" alt="backgroundwatch">
-	
+	</picture>
     <div class="container-fluid" id="welcome">
       <div class="row justify-content-center">
         <div class="col-sm-3"></div>
@@ -120,7 +122,7 @@
               <h5 class="card-title">Andromeda 12</h5>
               <h6>FOR HER</h6>
               <p class="card-text">Stylish yet elegant and versatile for any occasion</p>
-              <h6><b>&pound;4,800</b></h6>
+              <h6><b>&pound;2,800</b></h6>
               <a href="#" class="btn"><b>ADD TO CART</b></a>
             </div>
           </div>
@@ -132,7 +134,7 @@
               <h5 class="card-title">Messier 6</h5>
               <h6>FOR HIM</h6>
               <p class="card-text">Sophisticated with the utmost precision and quality</p>
-              <h6><b>&pound;4,800</b></h6>
+              <h6><b>&pound;4,000</b></h6>
               <a href="#" class="btn"><b>ADD TO CART</b></a>
             </div>
           </div>
@@ -144,7 +146,7 @@
               <h5 class="card-title">Andromeda 14</h5>
               <h6>FOR HER</h6>
               <p class="card-text">Modern-retro inspired with elegance and charm</p>
-              <h6><b>&pound;4,800</b></h6>
+              <h6><b>&pound;3,200</b></h6>
               <a href="#" class="btn"><b>ADD TO CART</b></a>
             </div>
           </div>
@@ -176,7 +178,7 @@
       </div>
       <br><br><br><br>
     </div>
-	
+	<!--...from here...-->
     <footer>
       <div class="footer" id="footer">
         <div class="container">
@@ -189,6 +191,7 @@
               <p>EH0 1AB</p>
               <p>Edinburgh</p>
               <p><i class="bi-telephone"></i> 0131 123 4567</p>
+			  <p><i class="bi-envelope"></i> mktime@madeupmail.co.uk</p>
 			  <br>
 			  <h3>Follow us on 
 			  <br>
@@ -222,5 +225,6 @@
 	
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<!--...until here.-->
   </body>
 </html>

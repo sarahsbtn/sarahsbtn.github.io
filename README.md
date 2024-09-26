@@ -14,3 +14,5 @@ Due to the increasing popularity, they anticipate a wide range of end-users and 
 - Login (form) page
 
 https://sarahsbtn.github.io/
+
+![alt text](https://github.com/sarahsbtn/readMeResources/blob/main/sarahsbtn.github.io-homepage.png "Homepage")
